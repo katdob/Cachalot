@@ -1,7 +1,14 @@
 import styled from 'styled-components'
+import whaletale from '../assets/abigail-lynn-51622-unsplash.jpg'
 
 
-const HomeDivMain = styled.div``
+const HomeDivMain = styled.div`
+  background-image: url(${props => whaletale});
+  backgroundPosition: center;
+  backgroundSize: cover;
+  backgroundRepeat: no-repeat;
+  height: 100%;
+  width: 100%;`
 
 const HomeSectionTop = styled.div`
   position: fixed;

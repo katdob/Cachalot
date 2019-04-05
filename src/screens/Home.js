@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { HomeSectionTop, HomeDivMain, HomeJoinButton, HomeSectionMiddle,
   Footer, FooterButton, HeroText } from '../helpers/StyledComponents'
+import whaletale from '../assets/abigail-lynn-51622-unsplash.jpg'
 
 
 export default class Home extends Component {
