@@ -9,12 +9,12 @@ export default class Home extends Component {
   render() {
     return (
       <HomeDivMain>
-        <HomeSectionTop>
-          <p>
-            The <b>Cachalot</b> Project
-            <HomeJoinButton>Join Us</HomeJoinButton>
-          </p>
-        </HomeSectionTop>
+      <HomeSectionTop>
+        <p>
+          The <b>Cachalot</b> Project
+          <HomeJoinButton>Join Us</HomeJoinButton>
+        </p>
+      </HomeSectionTop>
         <HomeSectionMiddle>
           <HeroText> Be  <b>Environment</b>  Aware </HeroText>
           <h3> Find animal migrations near you. </h3>

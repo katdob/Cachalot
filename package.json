@@ -7,8 +7,9 @@
     "jquery": "^1.9.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5",
+    "react-scripts": "^2.1.8",
     "reactstrap": "^7.1.0",
+    "styled-components": "^4.2.0",
     "typescript": "^3.3.3333"
   },
   "scripts": {

@@ -1,9 +1,13 @@
-import styled from 'styled-components'
+import styled from 'styled-components' 
 import whaletale from '../assets/abigail-lynn-51622-unsplash.jpg'
 
+// background-image: url(${props => whaletale});
 
 const HomeDivMain = styled.div`
-  background-image: url(${props => whaletale});
+  background-image: linear-gradient(to right bottom,
+                    rgb(66, 134, 244, 0.8),
+                    rgb(65, 217, 244, 0.8)),
+                    url(whaletale);
   backgroundPosition: center;
   backgroundSize: cover;
   backgroundRepeat: no-repeat;
