@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { HomeSectionTop, HomeDivMain, HomeJoinButton, HomeSectionMiddle,
-  Footer, FooterButton, HeroText } from '../helpers/StyledComponents'
-import whaletale from '../assets/abigail-lynn-51622-unsplash.jpg'
+  FooterButton, HeroText, HomeFooter } from '../helpers/HomeScreenStyledComponents'
 
 
 export default class Home extends Component {
@@ -19,11 +18,11 @@ export default class Home extends Component {
           <HeroText> Be  <b>Environment</b>  Aware </HeroText>
           <h3> Find animal migrations near you. </h3>
         </HomeSectionMiddle>
-        <Footer>
+        <HomeFooter>
           <FooterButton> Blog </FooterButton>
           <FooterButton> Policies </FooterButton>
           <FooterButton> Contact </FooterButton>
-        </Footer>
+        </HomeFooter>
       </HomeDivMain>
     )
   }
