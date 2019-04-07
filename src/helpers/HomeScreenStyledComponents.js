@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { Button, Footer, Header } from '../helpers/DefaultStyledComponents'
-// eslint-disable-next-line
 import whaletale from '../assets/abigail-lynn-51622-unsplash.jpg'
 
 /*
@@ -16,10 +15,10 @@ const HomeDivMain = styled.div`
   background-image: linear-gradient(to right bottom,
                     rgb(66, 134, 244, 0.8),
                     rgb(65, 217, 244, 0.8)),
-                    url(whaletale);
-  backgroundPosition: center;
-  backgroundSize: cover;
-  backgroundRepeat: no-repeat;
+                    url(${whaletale});
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100%;
   width: 100%;`
 
