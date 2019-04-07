@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Button, Footer } from '../helpers/StyledComponents'
+import { Button, Footer, Header } from '../helpers/DefaultStyledComponents'
 // eslint-disable-next-line
 import whaletale from '../assets/abigail-lynn-51622-unsplash.jpg'
 
@@ -16,48 +16,37 @@ const HomeDivMain = styled.div`
   height: 100%;
   width: 100%;`
 
-const HomeSectionTop = styled.div`
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  margin: 1rem;`
+const HomeHeader = styled(Header)`
+  color: white;`
 
-const HomeSectionMiddle = styled.div`
+const HomeSection = styled.div`
   text-align: center;
   position: relative;
   top: 2rem;
   left: 0;
-  margin: 0 0 0 0;`
+  margin: 0 0 0 0;
+  color: white;`
 
-const HomeFooter = styled(Footer)`
-  margin: 2rem;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;`
+const HomeFooter = styled(Footer)``
 
-const FooterButton = styled(Button)`
-  text-align: center;
-  border-radius: 0;
-  margin: 0 3rem 0 0;`
+const HomeFooterButton = styled(Button)`
+  opacity: 20;
+  color: white;
+  background-color: grey;`
 
-const HomeJoinButton = styled(Button)`
-  text-align: center;
-  float: right;
-  border-radius: 0;
-  margin: 0 3rem 0 0;`
+const HomeJoinButton = styled(HomeFooterButton)`
+  float: right;`
 
 const HeroText = styled.h3`
-  text-align: center;`
+  text-align: center;
+  color: white;`
 
 export {
   HomeDivMain,
-  HomeSectionTop,
-  HomeSectionMiddle,
+  HomeHeader,
+  HomeSection,
   HomeJoinButton,
-  FooterButton,
+  HomeFooterButton,
   HeroText,
   HomeFooter
 }
