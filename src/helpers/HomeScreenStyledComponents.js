@@ -19,8 +19,9 @@ const HomeDivMain = styled.div`
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;`
+  height: 65rem;
+  width: 100%;
+  overflow: hidden;`
 
 const HomeHeader = styled(Header)`
   color: white;`
