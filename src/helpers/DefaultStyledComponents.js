@@ -5,7 +5,7 @@ const Header = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   margin: 1rem;`
 
 const Footer = styled.div`
@@ -13,7 +13,7 @@ const Footer = styled.div`
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   text-align: center;`
 
 const Button = styled.button`

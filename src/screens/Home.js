@@ -17,8 +17,8 @@ export default class Home extends Component {
         </HomeHeader>
 
         <HomeSection>
-          <HeroText> Be  <b>Environment</b>  Aware </HeroText>
-          <h3> Find animal migrations near you. </h3>
+          <HeroText>Be <b>Environment</b> Aware</HeroText>
+          <h3>Find animal migrations near you.</h3>
         </HomeSection>
 
         <HomeFooter>
