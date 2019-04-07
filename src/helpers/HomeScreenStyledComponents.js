@@ -3,7 +3,14 @@ import { Button, Footer, Header } from '../helpers/DefaultStyledComponents'
 // eslint-disable-next-line
 import whaletale from '../assets/abigail-lynn-51622-unsplash.jpg'
 
-// background-image: url(${props => whaletale});
+/*
+TO DO:
+- background-image only renders in part of the home screen and does not match the design
+- there is a white border at the top of the viewport that must be removed
+- the buttons do not match the design
+- the HeroText and H3 elements need to match design
+- ask Mike about what he means by "weird spacing" in the HomeHeader
+*/
 
 const HomeDivMain = styled.div`
   background-image: linear-gradient(to right bottom,
@@ -31,8 +38,11 @@ const HomeFooter = styled(Footer)``
 
 const HomeFooterButton = styled(Button)`
   opacity: 20;
-  color: white;
-  background-color: grey;`
+  background-color: grey;
+  border-radius: 0.35rem;
+  padding: 0.5rem 1rem;`
+// the background-color is only grey for styling
+// once the background-image issue is fixed then it can be changed to suit the design
 
 const HomeJoinButton = styled(HomeFooterButton)`
   float: right;`

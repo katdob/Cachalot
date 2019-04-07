@@ -19,7 +19,8 @@ const Footer = styled.div`
 const Button = styled.button`
   text-align: center;
   border-radius: 0;
-  margin: 0 3rem 0 0;`
+  margin: 0 3rem 0 0;
+  color: white;`
 
 
 export {
