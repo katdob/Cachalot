@@ -1,0 +1,52 @@
+{
+  "name": "cachalot",
+  "version": "0.1.0",
+  "private": true,
+  "jest": {
+    "verbose": true
+  },
+  "dependencies": {
+    "@material-ui/styles": "^4.0.0-rc.0",
+    "@okta/okta-react": "^1.2.0",
+    "bootstrap": "^4.3.1",
+    "delay": "^4.2.0",
+    "jquery": "^3.4.0",
+    "material-ui": "^1.0.0-beta.47",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-private-route": "^1.1.2",
+    "react-scripts": "^3.0.0",
+    "react-timeout": "^1.2.0",
+    "reactstrap": "^7.1.0",
+    "styled-components": "^4.2.0",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "start": "PORT=8080 react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://localhost:5000",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@material-ui/core": "^3.9.3",
+    "axios": "^0.18.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "jest": "^24.7.1",
+    "react-router-dom": "^5.0.0"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  }
+}
